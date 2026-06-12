@@ -1,115 +1,84 @@
-# Airline Reservation & Passenger Management System
+# ✈️ Airline Reservation & Passenger Management System
 
-## Overview
+> A desktop-based airline management system built using Python, Tkinter, and SQLite for handling passenger records, ticket booking, food orders, luggage management, and billing operations.
 
-The Airline Reservation & Passenger Management System is a desktop-based application developed using Python, Tkinter, and SQLite. The project provides a graphical interface for managing airline passenger records, ticket reservations, food orders, luggage charges, billing operations, and database management.
+## 📌 Overview
+The Airline Reservation & Passenger Management System is a GUI-based desktop application that simulates real-world airline operations. It allows users to manage passengers, book tickets, calculate fares, handle food orders, manage luggage, and generate bills.
 
-This project demonstrates the practical application of GUI development, database integration, CRUD operations, and event-driven programming.
-
----
-
-## Technologies Used
-
-* Python
-* Tkinter
-* SQLite
+It demonstrates core concepts of GUI development, database integration, CRUD operations, and event-driven programming.
 
 ---
 
-## Features
-
-### Passenger Management
-
-* Add new passenger records
-* View passenger information
-* Store and retrieve passenger details using SQLite
-
-### Ticket Reservation
-
-* Airline ticket booking
-* Fare calculation
-* Passenger ticket management
-
-### Food Ordering System
-
-* Food menu selection
-* Order management
-* Food billing generation
-
-### Luggage Management
-
-* Luggage weight handling
-* Additional baggage charge calculation
-
-### Billing Module
-
-* Fare calculation
-* Food bill generation
-* Total cost computation
-
-### Database Integration
-
-* SQLite database connectivity
-* Data storage and retrieval
-* CRUD operations
-
-### User Interface
-
-* Interactive graphical interface
-* Tkinter-based desktop application
-* User-friendly navigation
+## ⚙️ Technologies Used
+- Python
+- Tkinter
+- SQLite
 
 ---
 
-## Technical Concepts Demonstrated
-
-* GUI Development with Tkinter
-* Database Design and Management
-* SQLite Integration
-* CRUD Operations
-* Event-Driven Programming
-* Data Validation
-* Software Design Principles
+## 🚀 How to Run
+pip install tk  
+python airline_final.py  
 
 ---
 
-## Project Structure
+## ✈️ Features
 
-```text
+### 👤 Passenger Management
+- Add new passenger records  
+- View passenger details  
+- Store data in SQLite database  
+
+### 🎟️ Ticket Reservation
+- Flight booking system  
+- Fare calculation  
+- Ticket management system  
+
+### 🍱 Food Ordering System
+- In-flight food menu selection  
+- Order processing  
+- Automatic food bill generation  
+
+### 🧳 Luggage Management
+- Baggage weight handling  
+- Extra charge calculation  
+
+### 💳 Billing System
+- Total cost calculation (Ticket + Food + Luggage)  
+- Automatic bill generation  
+
+### 🗄️ Database System
+- SQLite integration  
+- CRUD operations (Create, Read, Update, Delete)  
+
+---
+
+## 🧠 Concepts Used
+- GUI development using Tkinter  
+- Event-driven programming  
+- Database design and management  
+- CRUD operations  
+- System design principles  
+
+---
+
+## 📁 Project Structure
 airline-reservation-system/
 │
 ├── airline_final.py
 ├── README.md
-└── .gitignore
-```
 
 ---
 
-## Learning Outcomes
-
-This project strengthened skills in:
-
-* Python Programming
-* Database Management
-* GUI Application Development
-* Software Engineering Fundamentals
-* Problem Solving and Logical Design
+## 🚀 Future Improvements
+- Add user login/authentication system  
+- Add flight scheduling module  
+- Add online booking system  
+- Add advanced reporting dashboard  
+- Add multi-user access system  
 
 ---
 
-## Future Improvements
-
-* User Authentication System
-* Flight Scheduling Module
-* Online Booking Support
-* Report Generation
-* Advanced Search and Filtering
-* Multi-user Access Control
-
----
-
-## Author
-
-K M Varada
-
+## 👨‍💻 Author
+K M Varada  
 GitHub: https://github.com/kmvforge
