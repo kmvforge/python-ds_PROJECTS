@@ -1,92 +1,115 @@
-# Python DS Projects Portfolio
+# Airline Reservation & Passenger Management System
 
-This repository contains Python projects demonstrating software development, database management, GUI design, game development, and data structure concepts.
+## Overview
+
+The Airline Reservation & Passenger Management System is a desktop-based application developed using Python, Tkinter, and SQLite. The project provides a graphical interface for managing airline passenger records, ticket reservations, food orders, luggage charges, billing operations, and database management.
+
+This project demonstrates the practical application of GUI development, database integration, CRUD operations, and event-driven programming.
 
 ---
 
-## 1. Airline Reservation & Passenger Management System
-
-### Technologies
+## Technologies Used
 
 * Python
 * Tkinter
 * SQLite
 
-### Overview
+---
 
-A GUI-based airline reservation and passenger management system developed using Python, Tkinter, and SQLite.
+## Features
 
-### Features
+### Passenger Management
 
-* Passenger registration and management
-* Flight ticket booking
-* Ticket cancellation
-* Food order management
-* Billing and fare calculation
-* Database storage and retrieval using SQLite
-* User-friendly graphical interface
+* Add new passenger records
+* View passenger information
+* Store and retrieve passenger details using SQLite
 
-### Technical Highlights
+### Ticket Reservation
 
-* Relational database design
-* CRUD operations (Create, Read, Update, Delete)
-* Event-driven GUI programming
-* Data validation and record management
+* Airline ticket booking
+* Fare calculation
+* Passenger ticket management
 
-### Skills Demonstrated
+### Food Ordering System
 
-* Database Management
-* GUI Development
-* SQL Integration
-* Software Design
+* Food menu selection
+* Order management
+* Food billing generation
+
+### Luggage Management
+
+* Luggage weight handling
+* Additional baggage charge calculation
+
+### Billing Module
+
+* Fare calculation
+* Food bill generation
+* Total cost computation
+
+### Database Integration
+
+* SQLite database connectivity
+* Data storage and retrieval
+* CRUD operations
+
+### User Interface
+
+* Interactive graphical interface
+* Tkinter-based desktop application
+* User-friendly navigation
 
 ---
 
-## 2. Snake Game
+## Technical Concepts Demonstrated
 
-### Technologies
+* GUI Development with Tkinter
+* Database Design and Management
+* SQLite Integration
+* CRUD Operations
+* Event-Driven Programming
+* Data Validation
+* Software Design Principles
 
-* Python
-* Pygame
+---
 
-### Overview
+## Project Structure
 
-An interactive Snake Game developed using Python and Pygame demonstrating game development fundamentals and data structure concepts.
+```text
+airline-reservation-system/
+│
+├── airline_final.py
+├── README.md
+└── .gitignore
+```
 
-### Features
+---
 
-* Real-time keyboard controls
-* Dynamic food generation
-* Collision detection
-* Score tracking
-* Pause and restart functionality
-* Game-over handling
-* Progressive gameplay
+## Learning Outcomes
 
-### Technical Highlights
+This project strengthened skills in:
 
-* Event-driven programming
-* Queue/Deque-based snake movement logic
-* Game loop implementation
-* Object and state management
+* Python Programming
+* Database Management
+* GUI Application Development
+* Software Engineering Fundamentals
+* Problem Solving and Logical Design
 
-### Skills Demonstrated
+---
 
-* Game Development
-* Data Structures
-* Algorithmic Thinking
-* User Interaction Design
+## Future Improvements
+
+* User Authentication System
+* Flight Scheduling Module
+* Online Booking Support
+* Report Generation
+* Advanced Search and Filtering
+* Multi-user Access Control
 
 ---
 
 ## Author
 
-**K M Varada**
+K M Varada
 
 GitHub: https://github.com/kmvforge
-
----
-
-### Repository Purpose
-
-This repository serves as a portfolio of Python projects developed for learning, academic practice, and software development skill enhancement.
